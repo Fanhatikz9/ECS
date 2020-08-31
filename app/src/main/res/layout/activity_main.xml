@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Nom"
+        android:inputType="text"
+        android:textAllCaps="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_page_une" />
+
+    <EditText
+        android:id="@+id/prenom"
+
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Prenom"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="adresse"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/prenom"
+        app:layout_constraintStart_toStartOf="@+id/prenom"
+        app:layout_constraintTop_toBottomOf="@+id/prenom" />
+
+    <AutoCompleteTextView
+        android:id="@+id/diagnostique"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Site diagnostique"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/Commune"
+        app:layout_constraintStart_toStartOf="@+id/Commune"
+        app:layout_constraintTop_toBottomOf="@+id/Commune" />
+
+    <AutoCompleteTextView
+        android:id="@+id/Commune"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Code postal + ville "
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/adresse"
+        app:layout_constraintStart_toStartOf="@+id/adresse"
+        app:layout_constraintTop_toBottomOf="@+id/adresse" />
+
+    <EditText
+        android:id="@+id/nombre_equipement"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Nombre d'equipement"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/diagnostique"
+        app:layout_constraintStart_toStartOf="@+id/diagnostique"
+        app:layout_constraintTop_toBottomOf="@+id/diagnostique" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="418dp"
+        android:layout_height="225dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_gamma" />
+
+    <TextView
+        android:id="@+id/tv_page_une"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="FICHE DE CONTRÔLE"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/gotopage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Suivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

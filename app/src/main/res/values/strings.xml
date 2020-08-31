@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">ECS</string>
+
+    <string-array name="types">
+        <item>THERMOSIPHON</item>
+        <item>AUTOSTOCKEUR</item>
+    </string-array>
+
+    <string-array name="partenaires">
+        <item>SYRIUS ENERGIE GUADELOUPE</item>
+        <item>ECO SOLEY</item>
+        <item>PRO SOLEY</item>
+        <item>SOLARGREEN</item>
+    </string-array>
+
+    <string-array name="conformites">
+        <item>SANS AVIS</item>
+        <item>PAS D INTERVENTION IMPOSEE</item>
+        <item>INTERVENTION OBLIGATOIRE</item>
+    </string-array>
+
+    <string-array name="marques">
+        <item>SYRIUS</item>
+        <item>CALPAK</item>
+        <item>SOLIMPERK</item>
+    </string-array>
+
+    <string-array name="models">
+        <item>TS ECO 202</item>
+        <item>THERMO-200-1</item>
+        <item>ALS2110</item>
+        <item>ZELIOS CF 2</item>
+    </string-array>
+
+    <string-array name="frequences">
+        <item>QUOTIDIEN</item>
+        <item>HEBDOMADAIRE</item>
+        <item>JAMAIS</item>
+    </string-array>
+
+    <string-array name="fonctionnements">
+        <item>NON VERIFIE</item>
+        <item>BON</item>
+    </string-array>
+
+    <string-array name="anterieurs">
+        <item>INCONNU</item>
+        <item>AUCUN</item>
+        <item>CHAUFFE EAU SOLAIRE</item>
+        <item>CHAUFFE EAU ELECTRIQUE</item>
+    </string-array>
+
+    <string-array name="modes">
+        <item>SURIMPOSTION</item>
+    </string-array>
+
+    <string-array name="emplacements">
+        <item>TOITURE INCLINEE</item>
+    </string-array>
+
+    <string-array name="inclinaisons">
+        <item>NON SATISFAISANTE</item>
+        <item>SATISFAISANTE</item>
+    </string-array>
+
+    <string-array name="meteos">
+        <item>ENSOLEILLE</item>
+        <item>PLUVIEUX</item>
+        <item>NUAGEUX</item>
+    </string-array>
+
+    <string-array name="communes">
+        <item>97122 BAIE-MAHAULT</item>
+        <item>97180 SAINTE-ANNE</item>
+        <item>97190 GOSIER</item>
+        <item>97139 ABYMES</item>
+        <item>97121 ANSE-BERTRAND</item>
+        <item>97123 BAILLIF</item>
+        <item>97100 BASSE-TERRE</item>
+        <item>97125 BOUILLANTE</item>
+        <item>97130 CAPESTERRE BELLE EAU</item>
+        <item>97140 CAPESTERRE-DE-MARIE-GALANTE</item>
+        <item>97126 DESHAIES</item>
+        <item>97113 GOURBEYRE</item>
+        <item>97128 GOYAVE</item>
+        <item>97112 GRAND-BOURG</item>
+        <item>97127 LA DESIRADE</item>
+        <item>97129 LAMENTIN</item>
+        <item>97160 Le MOULE</item>
+        <item>97111 MORNE À L EAU</item>
+        <item>97170 PETIT-BOURG</item>
+        <item>97131 PETIT-CANAL</item>
+        <item>971110 POINTE A PITRE</item>
+        <item>97116 POINTE-NOIRE</item>
+        <item>97117 PORT-LOUIS</item>
+        <item>97120 SAINT-CLAUDE</item>
+        <item>97118 SAINT-FRANÇOIS</item>
+        <item>97114 TROIS-RIVIERE</item>
+        <item>97141 VIEUX FORT</item>
+        <item>97119 VIEUX-HABITANTS</item>
+    </string-array>
+
+    <string-array name="actions">
+        <item>CONFORME</item>
+        <item>PAS D INTERVENTION IMPOSEE</item>
+        <item>INTERVENTION CONSEILLEE</item>
+        <item>INTERVENTION OBLIGATOIRE</item>
+    </string-array>
+
+
+    <string-array name="sitex">
+        <item>RESIDENTIEL</item>
+    </string-array>
+
+</resources>
